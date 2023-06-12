@@ -5,10 +5,10 @@ import { StyleSheet } from "react-native";
 import EditScreenInfo from "../../components/EditScreenInfo";
 import { Text, View } from "../../components/Themed";
 
-export default function HomeScreen() {
+export default function AccountScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Home</Text>
+      <Text style={styles.title}>Account</Text>
       <View
         style={styles.separator}
         lightColor='#eee'
